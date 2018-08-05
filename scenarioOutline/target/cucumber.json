@@ -1,0 +1,292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9164587197,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login with various credentials",
+        "description": "",
+        "id": "check-login-variation;login-with-various-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3957647770,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6935260939,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to url \"http://www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 23
+                }
+              ],
+              "location": "login.user_navigates_to_url(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1098793550,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the login portal",
+            "match": {
+              "location": "login.user_clicks_on_the_login_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2080011871,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the username is \"webdriver3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver3",
+                  "offset": 17
+                }
+              ],
+              "location": "login.the_username_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290305736,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the password is \"inchhigh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inchhigh",
+                  "offset": 17
+                }
+              ],
+              "location": "login.the_password_is(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273477287,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96785570,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the message test is \"validation failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation failed",
+                  "offset": 21
+                }
+              ],
+              "location": "login.the_message_test_is(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4589532599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login with various credentials",
+        "description": "",
+        "id": "check-login-variation;login-with-various-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4106273448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6364326515,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to url \"http://www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 23
+                }
+              ],
+              "location": "login.user_navigates_to_url(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6189185903,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the login portal",
+            "match": {
+              "location": "login.user_clicks_on_the_login_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1784353535,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the username is \"webdriver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 17
+                }
+              ],
+              "location": "login.the_username_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 636293852,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the password is \"webdriver123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver123",
+                  "offset": 17
+                }
+              ],
+              "location": "login.the_password_is(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254961804,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37476137,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the message test is \"validation succeeded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation succeeded",
+                  "offset": 21
+                }
+              ],
+              "location": "login.the_message_test_is(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check login variation",
+    "description": "",
+    "id": "check-login-variation",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
