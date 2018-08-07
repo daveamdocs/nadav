@@ -8,7 +8,6 @@ Scenario Outline: Login with various credentials
 	And the password is "<password>" 
 	And user clicks on login button 
 	Then the message test is "<message>" 
-	
 	Examples: 
 	
 		|url								|username|password|message|
