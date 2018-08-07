@@ -13,3 +13,4 @@ Scenario Outline: Login with various credentials
 		|url								|username|password|message|
 		|http://www.webdriveruniversity.com | webdriver3 |inchhigh |validation failed|
 		|http://www.webdriveruniversity.com | webdriver |webdriver123 |validation succeeded|
+		
